@@ -106,4 +106,17 @@ class Dashboard extends CI_Controller
 		$data['detail_content'] = 'E-kinerja Universitas Negeri Makassar';
 		$this->load->view('template/das', $data);
 	}
+	// public function Password()
+	// {
+	// 	$nip = $this->session->userdata('nip');
+	// 	$queryPass  = $this->db->query("SELECT password FROM t_pegawai WHERE nip='$nip'");
+	// 	$password = $queryPass->row("password");
+	// 	$data['nip'] = $nip;
+	// 	$data['password'] = $password;
+	// 	$data['page'] = 'content/password.php';
+	// 	$data['content'] = 'Ubah Password';
+	// 	$data['judul_content'] = 'Password';
+	// 	$data['detail_content'] = 'E-kinerja Universitas Negeri Makassar';
+	// 	$this->load->view('template/das', $data);
+	// }
 }
